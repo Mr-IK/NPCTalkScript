@@ -1,0 +1,11 @@
+name: NPCTalkScript
+version: @version@
+main: jp.mkserver.npctalkscript.NPCTalkScript
+authors: [Mr_IK]
+description: NPC Talk Script Plugin
+depend: [Citizens,Vault]
+commands:
+  npct:
+    description: NPCTalkScript
+    usage: /<command>
+    default: op
