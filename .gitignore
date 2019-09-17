@@ -1,7 +1,3 @@
-.gradle/
-.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
 build/
-out/
-/bin/
-server*/
-libs*/

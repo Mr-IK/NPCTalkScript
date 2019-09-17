@@ -1,6 +1,6 @@
 NPCTalkScript Plugin
 ======
-NPCScriptプラグインは、[Mr_IK][twitter.com/Mr_IK2302]作成のSpigotプラグインです。<br />
+NPCScriptプラグインは、[Mr_IK](https://twitter.com/Mr_IK2302)作成のSpigotプラグインです。<br />
 
 説明
 ---

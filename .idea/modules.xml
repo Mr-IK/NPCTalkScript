@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NPCTalkScript.iml" filepath="$PROJECT_DIR$/NPCTalkScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NPCTalkScript.main.iml" filepath="$PROJECT_DIR$/.idea/modules/NPCTalkScript.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NPCTalkScript.test.iml" filepath="$PROJECT_DIR$/.idea/modules/NPCTalkScript.test.iml" />
+    </modules>
+  </component>
+</project>
