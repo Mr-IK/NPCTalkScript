@@ -1,12 +1,15 @@
 NPCTalkScript Plugin
 ======
-NPCScriptプラグインは、[Mr_IK](https://twitter.com/Mr_IK2302)作成のSpigotプラグインです。<br />
+NPCTalkScriptプラグインは、[Mr_IK](https://twitter.com/Mr_IK2302)作成のSpigotプラグインです。<br />
 
 説明
 ---
-当プラグインはMySQLを使用してフラグやカウントを管理します。
+当プラグインはMySQLを使用してフラグやカウントを管理します。<br />
 初回起動時にできたconfig.yml内を編集してご利用ください。
 
+バージョンログ
+---
+[v1.0.0-BETA] 作成<br />
 
 開発環境
 ---
