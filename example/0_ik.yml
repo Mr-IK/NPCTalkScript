@@ -1,0 +1,56 @@
+main:
+  - 'say §c§lMr_IK§f§l: §r…ん？'
+  - 'delay 40'
+  - 'say §c§lMr_IK§f§l: §rなんかお前俺に似てるな…'
+  - 'delay 40'
+  - 'hasflag:npc-ik-second npc-ik-second'
+  - 'say §c§lMr_IK§f§l: §rお前は俺か？'
+  - 'delay 40'
+  - 'select hanasinow そうですね！(ここをクリック):hai たぶん似てません(ここをクリック):tigau'
+
+hanasinow:
+  - 'say §c§lMr_IK§f§l: §r話し中か。また後でな。'
+
+hai:
+  - 'say §c§lMr_IK§f§l: §rやっぱりな！そうだと思ったぜ！'
+  - 'delay 40'
+  - 'say §c§lMr_IK§f§l: §rまた今度話そうぜ！'
+  - 'addflag npc-ik-second'
+
+
+tigau:
+  - 'say §c§lMr_IK§f§l: §r勘違いか、すまないね！'
+  - 'delay 40'
+  - 'say §c§lMr_IK§f§l: §rでもまた今度話そうぜ！'
+  - 'addflag npc-ik-second'
+
+npc-ik-second:
+  - 'say §c§lMr_IK§f§l: §rと思ったら君じゃないか！'
+  - 'delay 40'
+  - 'say §c§lMr_IK§f§l: §rびっくりしたぜ！'
+  - 'delay 40'
+  - 'say §c§lMr_IK§f§l: §rフラグをリセットするかい？'
+  - 'delay 40'
+  - 'select hanasinow お願い！(ここをクリック):flagreset いやです…:npc-ik-second0'
+
+flagreset:
+  - 'removeflag npc-ik-second'
+  - 'say §c§lMr_IK§f§l: §rじゃあまた話しかけてね。'
+
+npc-ik-second0:
+  - 'randomexecute npc-ik-second1 npc-ik-second2 npc-ik-second3 npc-ik-second4 npc-ik-second5'
+
+npc-ik-second1:
+  - 'say §c§lMr_IK§f§l: §r知ってたか？IKって童貞らしいぜ？'
+
+npc-ik-second2:
+  - 'say §c§lMr_IK§f§l: §r知ってたか？かにみそって眠らないらしいぜ？'
+
+npc-ik-second3:
+  - 'say §c§lMr_IK§f§l: §r知ってたか？このメッセージは5種類あるらしいぜ？'
+
+npc-ik-second4:
+  - 'say §c§lMr_IK§f§l: §rここ最近は眠れなくて困ってるぜ…'
+
+npc-ik-second5:
+  - 'say §c§lMr_IK§f§l: §rそろそろ働こうかね…'
